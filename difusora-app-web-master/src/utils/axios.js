@@ -1,0 +1,7 @@
+import axios from 'axios';
+
+const instance = axios.create();
+
+instance.defaults.headers.common['Authorization'] = 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX25hbWUiOiIrNTU4MTk5MTY0ODUwNCIsInBlcnNvbiI6IjNkYjkxNGZmLTNhMGMtNGNkMS05MWYzLWUxZmQwMWJhNmIzNCIsImF1dGhvcml0aWVzIjpbIlJPTEVfQURNSU4iXSwiaWF0IjoxNTg1ODU4MTA1LCJleHAiOjE2ODU4ODY5MDV9.S6R3Ko0bZ_HUtqXsWOxgiZH5bQlP3_E2Vo_MptdxR6c';
+
+export default instance;
