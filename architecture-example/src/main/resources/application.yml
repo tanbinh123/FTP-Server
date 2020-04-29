@@ -1,0 +1,23 @@
+server:
+  port: 8084
+  error:
+    whitelabel:
+      enable: false
+spring:
+    application:
+       name: person-microservice
+    datasource:
+        type: com.zaxxer.hikari.HikariDataSource
+        url: jdbc:postgresql://localhost:5432/person_dev
+        username: postgres
+        password: 2472
+        hikari:
+           data-source-properties:
+                cachePrepStmts: true
+                prepStmtCacheSize: 250
+                prepStmtCacheSqlLimit: 2048
+                useServerPrepStmts: true
+    jpa:
+        properties:
+          hibernate.temp.use_jdbc_metadata_defaults: false
+        show-sql: true
