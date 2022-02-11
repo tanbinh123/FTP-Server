@@ -52,7 +52,7 @@
     "material-ui-dropzone": "^2.4.9",
     "moment": "^2.24.0",
     "moment-timezone": "^0.5.28",
-    "node-sass": "^4.13.0",
+    "node-sass": "^7.0.0",
     "prismjs": "^1.17.1",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
